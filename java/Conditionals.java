@@ -2,15 +2,15 @@ public class Conditionals {
 	public static void main(String[] args) {
 
 
-		if (1 < 4 && 0 > 5) {
+		if (1 < 4 && 0 > 5) {   // syntax for "and" for conditionals ==>  &&
 
 			System.out.println("You ordered a cup of hot, mint tea.");
 
-		} else if (21 <= 19 || 17 >= 28) {
+		} else if (21 <= 19 || 17 >= 28) {  // "or" syntax ==>  ||
 
 			System.out.println("You ordered freshly squeezed orange juice!");
 
-		} else if ( !(true == true) ) {
+		} else if ( !(true == true) ) { // "not" syntax ==>  !
 
 			System.out.println("You ordered hot cocoa!");
 
